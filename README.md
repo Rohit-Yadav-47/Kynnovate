@@ -1,64 +1,78 @@
-# EventMate AI
+# Kynnovate
 
-![EventMate AI Demo](https://www.youtube.com/your-demo-link)
+![Kynnovate Demo](https://www.youtube.com/your-demo-link)
 
-Welcome to **EventMate AI**, an intelligent event discovery platform that leverages cutting-edge AI technologies to deliver personalized event experiences. Whether you're looking to attend local gatherings, explore new categories, or connect with like-minded individuals, EventMate AI has you covered.
+Welcome to **Kynnovate**, an innovative platform designed to revolutionize the way you discover, manage, and engage with events. Leveraging cutting-edge technologies and a user-centric design, Kynnovate provides a seamless experience for both event organizers and attendees. Whether you're looking to host a virtual conference, attend a local meetup, or connect with like-minded individuals, Kynnovate has you covered.
 
 ---
 
 ## 📋 Table of Contents
 
-1. [Overview](#-overview)
-2. [Key Features](#-key-features)
-3. [Tech Stack](#-tech-stack)
-4. [Getting Started](#-getting-started)
-5. [API Documentation](#-api-documentation)
-6. [Feature Details](#-feature-details)
-7. [Architecture](#-architecture)
+1. [🌟 Overview](#-overview)
+2. [🚀 Key Features](#-key-features)
+3. [🛠️ Tech Stack](#-tech-stack)
+4. [🎥 Demo](#-demo)
+5. [📥 Getting Started](#-getting-started)
+    - [🔧 Prerequisites](#-prerequisites)
+    - [📦 Installation](#-installation)
+        - [1. Clone the Repository](#1-clone-the-repository)
+        - [2. Backend Setup](#2-backend-setup)
+        - [3. Frontend Setup](#3-frontend-setup)
+6. [📄 API Documentation](#-api-documentation)
+7. [🏗️ Architecture](#-architecture)
+8. [🎯 Feature Details](#-feature-details)
+9. [🔒 Security](#-security)
+10. [📞 Contact](#-contact)
+11. [🙏 Acknowledgements](#-acknowledgements)
 
 ---
 
 ## 🌟 Overview
 
-EventMate AI is a state-of-the-art event discovery platform that combines AI-powered recommendations, community engagement, and real-time sentiment analysis to offer a seamless and personalized event browsing experience. Utilizing advanced Retrieval-Augmented Generation (RAG) techniques and the Groq Large Language Model (LLM), EventMate AI ensures users find events that perfectly match their preferences and interests.
+**Kynnovate** is a comprehensive event management and discovery platform that bridges the gap between event organizers and attendees. By integrating advanced AI-driven features, real-time analytics, and a robust community engagement system, Kynnovate ensures that every event is a success and every attendee has a memorable experience.
+
+### Key Objectives
+
+- **For Organizers:** Streamline event creation, management, and promotion.
+- **For Attendees:** Discover events tailored to their interests and connect with like-minded individuals.
+- **For Community:** Foster a vibrant community through interactive features and real-time feedback.
 
 ---
 
 ## 🚀 Key Features
 
-### 1. AI Event Assistant
-- **Voice-Enabled Queries:** Interact with the platform using natural language voice commands.
-- **Context-Aware Recommendations:** Receive event suggestions based on your current context and past interactions.
-- **Real-Time Sentiment Analysis:** Gauge the community's mood and feedback in real-time.
-- **Multi-Turn Conversations:** Engage in dynamic conversations to refine your event search.
+### 1. AI-Powered Event Recommendations
+- **Personalized Suggestions:** Receive event recommendations based on your interests, past activities, and location.
+- **Smart Search:** Utilize natural language processing to find events effortlessly.
 
-### 2. Event Discovery
-- **Location-Based Filtering:** Discover events happening near your current location or any specified area.
-- **Category Exploration:** Browse events across various categories such as music, tech, sports, and more.
-- **Time-of-Day Optimization:** Get event suggestions tailored to your preferred times.
-- **Personalized Recommendations:** Enjoy a curated list of events that align with your interests and past activities.
+### 2. Comprehensive Event Management
+- **Easy Event Creation:** Simple tools for organizers to create and manage events.
+- **Ticketing System:** Integrated ticket sales with secure payment processing.
+- **Real-Time Analytics:** Monitor event performance with real-time data insights.
 
-### 3. Community Features
-- **Interest-Based Matching:** Connect with users who share similar interests and passions.
-- **Friend Finder:** Discover and add friends within the platform to enhance your event experiences.
-- **Community Groups:** Join or create groups centered around specific interests or event types.
-- **Real-Time Engagement Metrics:** Monitor community interactions and engagement levels.
+### 3. Community Engagement
+- **User Profiles:** Create detailed profiles to showcase interests and connect with others.
+- **Forums & Groups:** Participate in discussions and join groups related to specific event categories.
+- **Real-Time Chat:** Engage with other attendees and organizers through integrated chat features.
 
-### 4. Sentiment Analysis
-- **Real-Time Feedback Processing:** Analyze user feedback as it happens to improve event offerings.
-- **Trend Detection:** Identify and capitalize on emerging trends within the community.
-- **Community Mood Tracking:** Keep a pulse on the overall sentiment and satisfaction of users.
-- **Event Success Prediction:** Forecast the potential success of events based on current data.
+### 4. Real-Time Feedback & Sentiment Analysis
+- **Live Polls & Surveys:** Gather instant feedback from attendees during events.
+- **Sentiment Tracking:** Analyze community sentiment to improve future events.
+
+### 5. Multi-Platform Support
+- **Responsive Design:** Access Kynnovate seamlessly across web and mobile devices.
+- **API Integration:** Extend functionality with a robust API for third-party integrations.
 
 ---
 
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **Framework:** React + TypeScript
+- **Framework:** React.js
+- **Language:** TypeScript
 - **Styling:** TailwindCSS
 - **Animations:** AOS (Animate On Scroll)
-- **State Management:** React Hooks
+- **State Management:** Redux Toolkit
 - **Routing:** React Router
 - **Icons:** Lucide React
 
@@ -66,188 +80,309 @@ EventMate AI is a state-of-the-art event discovery platform that combines AI-pow
 - **Framework:** FastAPI
 - **Language Model:** Groq LLM
 - **Embeddings:** Sentence Transformers
-- **Data Analysis:** NumPy
-- **Database:** SQLite (development)
+- **Data Analysis:** NumPy, Pandas
+- **Database:** SQLite (development), PostgreSQL (production)
+- **Authentication:** JWT (JSON Web Tokens)
 
 ### Additional Technologies
 - **Voice Recognition:** Integrated for voice-enabled queries.
-- **Real-Time Processing:** Ensures instantaneous sentiment analysis and feedback processing.
+- **Real-Time Processing:** WebSockets for real-time interactions.
+- **Containerization:** Docker & Docker Compose for easy deployment.
+- **CI/CD:** GitHub Actions for automated testing and deployment.
 
 ---
 
 ## 🎥 Demo
 
-Experience EventMate AI in action! [Watch the Demo Video](https://www.youtube.com/your-demo-link)
+Experience **Kynnovate** in action! Watch our [Demo Video](https://drive.google.com/file/d/1CNhHimUwqtYOz-9ltGnZ1acoeLGMjQpD/view) to see how our platform can transform your event experience.
+
+![Kynnovate Demo](https://www.youtube.com/your-demo-link)
 
 ---
 
 ## 📥 Getting Started
 
-Follow these steps to set up and run EventMate AI locally.
+Follow these steps to set up and run **Kynnovate** locally.
 
-### 📝 Prerequisites
+### 🔧 Prerequisites
 
-- **Node.js:** v16+
-- **Python:** 3.8+
-- **pip:** Python package installer
-- **Git:** Version control system
+Before you begin, ensure you have the following installed on your machine:
+
+- **Node.js:** v16+ ([Download Node.js](https://nodejs.org/))
+- **Python:** 3.8+ ([Download Python](https://www.python.org/downloads/))
+- **pip:** Python package installer (comes with Python)
+- **Git:** Version control system ([Download Git](https://git-scm.com/downloads))
+- **Docker:** (Optional, for containerization) ([Download Docker](https://www.docker.com/get-started))
 
 ### 📦 Installation
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/yourusername/eventmate-ai.git
-   cd eventmate-ai
-   ```
+#### 1. Clone the Repository
 
-2. **Backend Setup**
+First, clone the GitHub repository to your local machine.
 
-   - **Create Virtual Environment**
-     ```bash
-     python -m venv venv
-     source venv/bin/activate  # Windows: .\venv\Scripts\activate
-     ```
+```bash
+git clone https://github.com/Rohit-Yadav-47/Kynnovate.git
+cd Kynnovate
+```
 
-   - **Install Dependencies**
-     ```bash
-     pip install -r requirements.txt
-     ```
+#### 2. Backend Setup
 
-   - **Configure Environment Variables**
-     ```bash
-     cp .env.example .env
-     ```
-     - Open `.env` and add your API keys and necessary configurations.
+The backend is built using FastAPI and handles all server-side operations.
 
-   - **Start FastAPI Server**
-     ```bash
-     uvicorn fast:app --reload
-     ```
+##### a. Navigate to the Backend Directory
 
-3. **Frontend Setup**
+```bash
+cd backend
+```
 
-   - **Install Dependencies**
-     ```bash
-     npm install
-     ```
+##### b. Set Up a Virtual Environment
 
-   - **Start Development Server**
-     ```bash
-     npm run dev
-     ```
-   - Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
+Creating a virtual environment helps manage project-specific dependencies.
+
+- **Create the Virtual Environment**
+
+  ```bash
+  python -m venv venv
+  ```
+
+- **Activate the Virtual Environment**
+
+  - **On macOS/Linux:**
+
+    ```bash
+    source venv/bin/activate
+    ```
+
+  - **On Windows:**
+
+    ```bash
+    .\venv\Scripts\activate
+    ```
+
+  After activation, your terminal prompt should be prefixed with `(venv)`.
+
+##### c. Install Dependencies
+
+Install the required Python packages listed in `requirements.txt`.
+
+```bash
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+##### d. Start the Backend Server
+
+Launch the FastAPI server using Uvicorn.
+
+```bash
+uvicorn main:fast --reload
+```
+
+- **`main`** refers to the `main.py` file.
+- **`app`** is the FastAPI instance inside `main.py`.
+- **`--reload`** enables auto-reloading on code changes (useful for development).
+
+> **Access the API:** Open [http://localhost:8000](http://localhost:8000) in your browser.
+
+#### 3. Frontend Setup
+
+The frontend is built using React.js and provides the user interface for Kynnovate.
+
+##### a. Navigate to the Frontend Directory
+
+From the root of the repository (assuming frontend is in the main folder):
+
+```bash
+cd ..
+```
+
+##### b. Install Dependencies
+
+Install the required Node.js packages listed in `package.json`.
+
+```bash
+npm install
+```
+
+##### c. Start the Development Server
+
+Launch the React development server.
+
+```bash
+npm run dev
+```
+
+> **Access the Application:** Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
 ---
-
 ## 📄 API Documentation
 
-EventMate AI provides a robust API to interact with various features of the platform. Below is an overview of the core endpoints.
+Kynnovate provides a comprehensive API to interact with various features of the platform. Below is an overview of the core endpoints and their respective schemas.
 
 ### 🔌 Core Endpoints
 
-#### Chat Endpoints
+#### **Chat Endpoints**
 - **POST** `/chatbot`  
-  *AI event assistant for handling event-related queries.*
+  *Chatbot Endpoint*
 
 - **POST** `/chat`  
-  *General conversation endpoint for miscellaneous interactions.*
+  *Chat Endpoint*
 
-#### Event Endpoints
+#### **Event Endpoints**
 - **GET** `/events`  
-  *Retrieve a list of all events.*
+  *Get Events*
 
-- **GET** `/events/{id}`  
-  *Retrieve details of a specific event by ID.*
+- **GET** `/events/{event_id}`  
+  *Get Event*
 
-#### User Endpoints
+#### **User Endpoints**
 - **GET** `/users`  
-  *Retrieve a list of all users.*
+  *Get Users Endpoint*
+
+- **GET** `/users/{user_id}`  
+  *Get User Endpoint*
+
+- **GET** `/users/{user_id}/full`  
+  *Get User Full Profile*
 
 - **POST** `/match/users`  
-  *Match users based on interests and criteria.*
+  *Match Users Endpoint*
 
-#### Community Endpoints
+- **POST** `/users/match`  
+  *Match Users*
+
+#### **Community Endpoints**
 - **GET** `/communities`  
-  *Retrieve a list of all communities.*
+  *Get Communities Endpoint*
+
+- **GET** `/communities/{community_id}`  
+  *Get Community Endpoint*
 
 - **POST** `/match/communities`  
-  *Find communities that match specified interests or keywords.*
+  *Match Communities Endpoint*
 
-### 📚 Detailed API Routes
+#### **Health Check Endpoint**
+- **GET** `/health`  
+  *Health Check*
 
-For comprehensive API documentation, including request and response schemas, authentication methods, and example payloads, please refer to the [API Documentation](./docs/API.md).
+### 📚 Schemas
 
----
+The following schemas define the structure of the data returned by the API endpoints.
 
-## 🎯 Feature Details
+- **Community**
+  - Detailed structure of the Community object.
 
-### Retrieval-Augmented Generation (RAG) Implementation
+- **Event**
+  - Detailed structure of the Event object.
 
-EventMate AI uses RAG techniques to enhance the relevance and accuracy of its recommendations. Here's a brief overview of how it processes user queries:
+- **HTTPValidationError**
+  - Structure for validation error responses.
 
-```python
-def process_query(query):
-    # Semantic Chunking
-    chunks = chunk_text(data)
-    
-    # Embedding & Ranking
-    ranked_chunks = rank_by_similarity(query, chunks)
-    
-    # Context Assembly
-    context = assemble_context(ranked_chunks)
-    
-    # LLM Processing
-    response = process_with_groq(query, context)
-    
-    return format_response(response)
-```
+- **User**
+  - Detailed structure of the User object.
 
-### Voice Recognition
-
-- **Real-Time Transcription:** Converts spoken queries into text instantaneously.
-- **Multiple Language Support:** Interacts in various languages to cater to a diverse user base.
-- **Noise Cancellation:** Ensures accurate transcription even in noisy environments.
-- **Continuous Mode:** Allows for ongoing voice interactions without needing to activate manually.
-
-### Sentiment Analysis
-
-- **Real-Time Processing:** Analyzes feedback as it comes in to provide up-to-date insights.
-- **Emotion Detection:** Identifies emotions expressed in user feedback.
-- **Trend Analysis:** Tracks and identifies trends over time within the community.
-- **Actionable Insights:** Provides data-driven recommendations based on sentiment analysis.
+- **ValidationError**
+  - Structure for general validation errors.
 
 ---
 
 ## 🏗️ Architecture
 
-EventMate AI is built on a modular architecture that ensures scalability, maintainability, and efficiency. Below is an overview of the system architecture:
+Kynnovate is built on a modular architecture that ensures scalability, maintainability, and efficiency. Below is an overview of the system architecture:
 
 ```mermaid
 graph TD
     A[Frontend React App] --> B[FastAPI Backend]
-    B --> C[Groq LLM]
-    B --> D[RAG Engine]
+    B --> C[SQLite Database]
+    B --> D[Groq LLM]
     B --> E[Sentiment Analysis]
-    D --> F[Vector Store]
-    E --> G[Analytics Dashboard]
+    E --> F[Analytics Dashboard]
 ```
 
 ### Components
 
-1. **Frontend:**  
-   Built with React and TypeScript, the frontend provides a responsive and interactive user interface. TailwindCSS ensures consistent styling, while AOS adds engaging animations.
+1. **Frontend:**
+   - **Technology:** React.js with TypeScript
+   - **Responsibilities:** 
+     - Render user interfaces
+     - Handle user interactions
+     - Communicate with the backend via API calls
+     - Manage state using Redux Toolkit
 
-2. **Backend:**  
-   Powered by FastAPI, the backend handles API requests, business logic, and interactions with the database. It integrates with the Groq LLM for natural language processing and utilizes Sentence Transformers for embedding generation.
+2. **Backend:**
+   - **Technology:** FastAPI
+   - **Responsibilities:**
+     - Handle API requests
+     - Business logic and data processing
+     - Integrate with AI services like Groq LLM and Sentiment Analysis
 
-3. **Database:**  
-   SQLite is used for development purposes, offering a lightweight and easy-to-use solution. For production, consider migrating to more robust databases like PostgreSQL.
+3. **Database:**
+   - **Technology:** SQLite (development), PostgreSQL (production)
+   - **Responsibilities:**
+     - Store user data, event details, tickets, and other relational data
+     - Ensure data integrity and support complex queries
 
-4. **AI Services:**  
+4. **AI Services:**
    - **Groq LLM:** Facilitates advanced natural language understanding and generation.
-   - **Sentence Transformers:** Generates embeddings for semantic similarity tasks.
-   - **NumPy:** Handles numerical computations and data analysis.
+   - **Sentiment Analysis:** Analyzes user feedback to gauge community sentiment.
 
-5. **Middleware:**  
-   CORS middleware ensures secure and controlled cross-origin requests.
+5. **Analytics Dashboard:**
+   - **Technology:** Integrated within the backend for real-time insights.
+   - **Responsibilities:**
+     - Display analytics data
+     - Monitor event performance and user engagement
+
+---
+
+## 🎯 Feature Details
+
+### 1. AI-Powered Event Recommendations
+
+Kynnovate leverages machine learning algorithms to provide personalized event recommendations based on user behavior, preferences, and contextual data.
+
+```python
+def recommend_events(user_id):
+    user_preferences = get_user_preferences(user_id)
+    events = fetch_events()
+    recommended = apply_ml_model(user_preferences, events)
+    return recommended
+```
+
+### 2. Real-Time Chat and Notifications
+
+Using WebSockets, Kynnovate supports real-time communication between users and instant notifications for event updates.
+
+- **WebSockets:** Enable live chat features and real-time updates.
+- **Notifications:** Inform users about event changes, new events, and community activities.
+
+### 3. Ticketing System
+
+A robust ticketing system allows users to purchase, view, and manage their event tickets seamlessly.
+
+- **Secure Payments:** Integrated with trusted payment gateways.
+- **Ticket Generation:** Generate unique tickets with QR codes for entry verification.
+
+### 4. Community Forums and Groups
+
+Foster a sense of community by allowing users to join forums and groups based on their interests and event categories.
+
+- **Discussion Threads:** Engage in meaningful conversations.
+- **Group Management:** Create and manage groups with specific themes or topics.
+
+### 5. Real-Time Feedback and Sentiment Analysis
+
+Gather instant feedback from attendees during events and analyze community sentiment to improve future events.
+
+- **Live Polls:** Conduct polls to gauge attendee opinions.
+- **Sentiment Analysis:** Utilize natural language processing to assess the overall mood and satisfaction.
+
+### 6. Multi-Language Support
+
+Ensure accessibility for a global audience by supporting multiple languages across the platform.
+
+- **Internationalization (i18n):** Easily switch between different languages.
+- **Localization:** Adapt content to fit regional preferences and norms.
+
+---
+
 
