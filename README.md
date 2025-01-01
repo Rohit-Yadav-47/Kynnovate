@@ -96,7 +96,7 @@ Welcome to **Event HUB**, an innovative platform designed to revolutionize the w
 - **Database:** SQLite (development), PostgreSQL (production)
 
 ### Additional Technologies
-- **Voice Recognition:** Integrated for voice-enabled queries.
+- **Voice Recognition:** Integrated for voice-enabled queries in.
 - **Real-Time Processing:** WebSockets for real-time interactions.
 
 ---
@@ -184,7 +184,7 @@ uvicorn main:fast --reload
 - **`app`** is the FastAPI instance inside `main.py`.
 - **`--reload`** enables auto-reloading on code changes (useful for development).
 
-> **Access the API:** Open [http://localhost:8000](http://localhost:8000) in your browser.
+> **Access the API:** Open [http://127.0.0.1:8000](http://127.0.0.1:8000) in your browser.
 
 #### 3. Frontend Setup
 
