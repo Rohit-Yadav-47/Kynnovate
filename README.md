@@ -21,7 +21,6 @@ Welcome to **Kynnovate**, an innovative platform designed to revolutionize the w
         - [3. Frontend Setup](#3-frontend-setup)
 5. [📄 API Documentation](#-api-documentation)
 6. [🏗️ Architecture](#-architecture)
-7. [🎯 Feature Details](#-feature-details)
 
 
 ---
@@ -80,13 +79,10 @@ Welcome to **Kynnovate**, an innovative platform designed to revolutionize the w
 - **Embeddings:** Sentence Transformers
 - **Data Analysis:** NumPy, Pandas
 - **Database:** SQLite (development), PostgreSQL (production)
-- **Authentication:** JWT (JSON Web Tokens)
 
 ### Additional Technologies
 - **Voice Recognition:** Integrated for voice-enabled queries.
 - **Real-Time Processing:** WebSockets for real-time interactions.
-- **Containerization:** Docker & Docker Compose for easy deployment.
-- **CI/CD:** GitHub Actions for automated testing and deployment.
 
 ---
 
