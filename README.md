@@ -1,17 +1,21 @@
 # EventMate AI
 
+![EventMate AI Demo](https://www.youtube.com/your-demo-link)
+
 Welcome to **EventMate AI**, an intelligent event discovery platform that leverages cutting-edge AI technologies to deliver personalized event experiences. Whether you're looking to attend local gatherings, explore new categories, or connect with like-minded individuals, EventMate AI has you covered.
 
-## Table of Contents
+---
 
-1. [Overview](#Overview)
-2. [Key Features](#key-features)
-3. [Tech Stack](#tech-stack)
-4. [Demo](#demo)
-5. [Getting Started](#getting-started)
-6. [API Documentation](#api-documentation)
-7. [Feature Details](#feature-details)
-8. [Architecture](#architecture)
+## 📋 Table of Contents
+
+1. [Overview](#-overview)
+2. [Key Features](#-key-features)
+3. [Tech Stack](#-tech-stack)
+4. [Getting Started](#-getting-started)
+5. [API Documentation](#-api-documentation)
+6. [Feature Details](#-feature-details)
+7. [Architecture](#-architecture)
+
 ---
 
 ## 🌟 Overview
@@ -72,8 +76,6 @@ EventMate AI is a state-of-the-art event discovery platform that combines AI-pow
 ---
 
 ## 🎥 Demo
-
-![EventMate AI Demo](path/to/demo.gif)
 
 Experience EventMate AI in action! [Watch the Demo Video](https://www.youtube.com/your-demo-link)
 
@@ -219,7 +221,6 @@ def process_query(query):
 ## 🏗️ Architecture
 
 EventMate AI is built on a modular architecture that ensures scalability, maintainability, and efficiency. Below is an overview of the system architecture:
-
 
 ```mermaid
 graph TD
