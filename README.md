@@ -220,7 +220,16 @@ def process_query(query):
 
 EventMate AI is built on a modular architecture that ensures scalability, maintainability, and efficiency. Below is an overview of the system architecture:
 
-![Architecture Diagram](path/to/architecture-diagram.png)
+
+```mermaid
+graph TD
+    A[Frontend React App] --> B[FastAPI Backend]
+    B --> C[Groq LLM]
+    B --> D[RAG Engine]
+    B --> E[Sentiment Analysis]
+    D --> F[Vector Store]
+    E --> G[Analytics Dashboard]
+```
 
 ### Components
 
