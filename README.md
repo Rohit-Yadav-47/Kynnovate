@@ -16,11 +16,6 @@
 
 EventMate AI is a cutting-edge event discovery platform that combines AI-powered recommendations, community engagement, and real-time sentiment analysis. Our solution leverages advanced RAG (Retrieval-Augmented Generation) techniques and the Groq LLM to provide personalized event experiences.
 
-### 🏆 Awards & Recognition
-- Best AI Implementation - Hackathon 2024
-- Most Innovative Use of RAG
-- Best User Experience
-
 ## 🚀 Key Features
 
 ### 1. AI Event Assistant
