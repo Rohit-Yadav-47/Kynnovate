@@ -2,7 +2,7 @@
 
 ## 🎥 Demo
 
-Experience **Kynnovate** in action! [Watch our Demo Video](https://github.com/Rohit-Yadav-47/Kynnovate/blob/main/demo.mp4?raw=true) to see how our platform can transform your event experience.
+[![Kynnovate Demo](https://cdn.streamable.com/thumbnails/82xg5h.jpg)](https://streamable.com/82xg5h)
 
 Welcome to **Kynnovate**, an innovative platform designed to revolutionize the way you discover, manage, and engage with events. Leveraging cutting-edge technologies and a user-centric design, Kynnovate provides a seamless experience for both event organizers and attendees. Whether you're looking to host a virtual conference, attend a local meetup, or connect with like-minded individuals, Kynnovate has you covered.
 
