@@ -4,7 +4,7 @@ Welcome to **EventMate AI**, an intelligent event discovery platform that levera
 
 ## Table of Contents
 
-1. [Overview](#overview)
+1. [Overview](#🌟 Overview)
 2. [Key Features](#key-features)
 3. [Tech Stack](#tech-stack)
 4. [Demo](#demo)
