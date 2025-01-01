@@ -1,6 +1,6 @@
 # Kynnovate
 
-![Kynnovate Demo](https://www.youtube.com/your-demo-link)
+![Kynnovate Demo](https://drive.google.com/file/d/1CNhHimUwqtYOz-9ltGnZ1acoeLGMjQpD/view)
 
 Welcome to **Kynnovate**, an innovative platform designed to revolutionize the way you discover, manage, and engage with events. Leveraging cutting-edge technologies and a user-centric design, Kynnovate provides a seamless experience for both event organizers and attendees. Whether you're looking to host a virtual conference, attend a local meetup, or connect with like-minded individuals, Kynnovate has you covered.
 
@@ -21,9 +21,7 @@ Welcome to **Kynnovate**, an innovative platform designed to revolutionize the w
 6. [📄 API Documentation](#-api-documentation)
 7. [🏗️ Architecture](#-architecture)
 8. [🎯 Feature Details](#-feature-details)
-9. [🔒 Security](#-security)
-10. [📞 Contact](#-contact)
-11. [🙏 Acknowledgements](#-acknowledgements)
+
 
 ---
 
