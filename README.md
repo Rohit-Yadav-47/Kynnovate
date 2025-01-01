@@ -1,10 +1,10 @@
-# Kynnovate
+# Event Hub
 
 ## 🎥 Demo
 
 [![Kynnovate Demo][https://streamable.com/uu3xo9](https://streamable.com/uu3xo9)
 
-Welcome to **Kynnovate**, an innovative platform designed to revolutionize the way you discover, manage, and engage with events. Leveraging cutting-edge technologies and a user-centric design, Kynnovate provides a seamless experience for both event organizers and attendees. Whether you're looking to host a virtual conference, attend a local meetup, or connect with like-minded individuals, Kynnovate has you covered.
+Welcome to **Event HUB**, an innovative platform designed to revolutionize the way you discover, manage, and engage with events. Leveraging cutting-edge technologies and a user-centric design, Kynnovate provides a seamless experience for both event organizers and attendees. Whether you're looking to host a virtual conference, attend a local meetup, or connect with like-minded individuals, Kynnovate has you covered.
 
 ---
 
@@ -39,28 +39,43 @@ Welcome to **Kynnovate**, an innovative platform designed to revolutionize the w
 
 ## 🚀 Key Features
 
-### 1. AI-Powered Event Recommendations
-- **Personalized Suggestions:** Receive event recommendations based on your interests, past activities, and location.
-- **Smart Search:** Utilize natural language processing to find events effortlessly.
+### 1. Voice-Enabled Smart Assistant
+- **Natural Voice Commands:** Easily search for events using natural voice queries.
+- **Real-Time Voice-to-Text Transcription:** Transcribe voice inputs instantly with high accuracy.
+- **Multi-Browser Compatibility:** Works seamlessly across Chrome, Safari, Edge, and other popular browsers.
+- **Visual Feedback:** Get real-time visual feedback during voice input for enhanced usability.
+- **Contextual Conversation Memory:** Retain context across interactions for smoother, multi-step conversations.
 
-### 2. Comprehensive Event Management
-- **Easy Event Creation:** Simple tools for organizers to create and manage events.
-- **Real-Time Analytics:** Monitor event performance with real-time data insights.
+### 2. RAG-Enhanced Search
+- **Custom Retrieval-Augmented Generation:** Leverage advanced AI for precise, contextually relevant responses.
+- **Semantic Chunking:** Break down content into meaningful segments for better context understanding.
+- **Real-Time Result Ranking:** Dynamically rank results for optimal relevance.
+- **Context-Aware Responses:** Deliver results tailored to the user's specific needs and previous queries.
+- **Groq LLM Integration:** Enhance search capabilities with cutting-edge AI model integration.
 
-### 3. Community Engagement
-- **User Profiles:** Create detailed profiles to showcase interests and connect with others.
-- **Forums & Groups:** Participate in discussions and join groups related to specific event categories.
-- **Real-Time Chat:** Engage with other attendees and organizers through integrated chat features.
+### 3. Personalized Event Discovery
+- **Advanced Filtering System:** Filter events based on time of day, location, categories, and price range.
+- **Location-Based Search:** Find events happening near your current or specified location.
+- **Category-Based Browsing:** Explore events by interest categories such as music, sports, or networking.
+- **Real-Time Updates:** Receive live updates on newly added or modified events.
 
-### 4. Real-Time Feedback & Sentiment Analysis
-- **Live Polls & Surveys:** Gather instant feedback from attendees during events.
-- **Sentiment Tracking:** Analyze community sentiment to improve future events.
-
-### 5. Multi-Platform Support
-- **Responsive Design:** Access Kynnovate seamlessly across web and mobile devices.
-- **API Integration:** Extend functionality with a robust API for third-party integrations.
+### 4. Interactive Event Cards
+- **Smooth Animations:** Enhance the user experience with dynamic animations powered by AOS (Animate On Scroll).
+- **Rich Event Details:** Display comprehensive event information, including descriptions, images, and organizer details.
+- **Dynamic Image Loading:** Optimize loading times with on-demand image rendering.
+- **One-Click Registration:** Simplify event sign-ups with a single click.
+- **Share Functionality:** Effortlessly share event details with others via social media or direct links.
 
 ---
+
+### Example Interaction:
+**User Query:** "Find me jazz events this weekend near Marina Beach"  
+**Response:**  
+- A curated list of events matching the following criteria:  
+  - **Location Matching:** Events near Marina Beach.  
+  - **Time/Date Relevance:** Events happening over the weekend.  
+  - **Category Alignment:** Jazz music events.  
+  - **Sentiment Analysis:** Highly rated or positively reviewed events.  
 
 ## 🛠️ Tech Stack
 
