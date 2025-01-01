@@ -2,7 +2,7 @@
 
 ## 🎥 Demo
 
-[![Kynnovate Demo](https://cdn.streamable.com/thumbnails/82xg5h.jpg)](https://streamable.com/82xg5h)
+[![Kynnovate Demo](https://streamable.com/uu3xo9)
 
 Welcome to **Kynnovate**, an innovative platform designed to revolutionize the way you discover, manage, and engage with events. Leveraging cutting-edge technologies and a user-centric design, Kynnovate provides a seamless experience for both event organizers and attendees. Whether you're looking to host a virtual conference, attend a local meetup, or connect with like-minded individuals, Kynnovate has you covered.
 
@@ -13,16 +13,15 @@ Welcome to **Kynnovate**, an innovative platform designed to revolutionize the w
 1. [🌟 Overview](#-overview)
 2. [🚀 Key Features](#-key-features)
 3. [🛠️ Tech Stack](#-tech-stack)
-4. [🎥 Demo](#-demo)
-5. [📥 Getting Started](#-getting-started)
+4. [📥 Getting Started](#-getting-started)
     - [🔧 Prerequisites](#-prerequisites)
     - [📦 Installation](#-installation)
         - [1. Clone the Repository](#1-clone-the-repository)
         - [2. Backend Setup](#2-backend-setup)
         - [3. Frontend Setup](#3-frontend-setup)
-6. [📄 API Documentation](#-api-documentation)
-7. [🏗️ Architecture](#-architecture)
-8. [🎯 Feature Details](#-feature-details)
+5. [📄 API Documentation](#-api-documentation)
+6. [🏗️ Architecture](#-architecture)
+7. [🎯 Feature Details](#-feature-details)
 
 
 ---
@@ -47,7 +46,6 @@ Welcome to **Kynnovate**, an innovative platform designed to revolutionize the w
 
 ### 2. Comprehensive Event Management
 - **Easy Event Creation:** Simple tools for organizers to create and manage events.
-- **Ticketing System:** Integrated ticket sales with secure payment processing.
 - **Real-Time Analytics:** Monitor event performance with real-time data insights.
 
 ### 3. Community Engagement
@@ -92,13 +90,6 @@ Welcome to **Kynnovate**, an innovative platform designed to revolutionize the w
 
 ---
 
-## 🎥 Demo
-
-Experience **Kynnovate** in action! Watch our [Demo Video](https://drive.google.com/file/d/1CNhHimUwqtYOz-9ltGnZ1acoeLGMjQpD/view) to see how our platform can transform your event experience.
-
-![Kynnovate Demo](https://www.youtube.com/your-demo-link)
-
----
 
 ## 📥 Getting Started
 
@@ -333,56 +324,3 @@ graph TD
      - Monitor event performance and user engagement
 
 ---
-
-## 🎯 Feature Details
-
-### 1. AI-Powered Event Recommendations
-
-Kynnovate leverages machine learning algorithms to provide personalized event recommendations based on user behavior, preferences, and contextual data.
-
-```python
-def recommend_events(user_id):
-    user_preferences = get_user_preferences(user_id)
-    events = fetch_events()
-    recommended = apply_ml_model(user_preferences, events)
-    return recommended
-```
-
-### 2. Real-Time Chat and Notifications
-
-Using WebSockets, Kynnovate supports real-time communication between users and instant notifications for event updates.
-
-- **WebSockets:** Enable live chat features and real-time updates.
-- **Notifications:** Inform users about event changes, new events, and community activities.
-
-### 3. Ticketing System
-
-A robust ticketing system allows users to purchase, view, and manage their event tickets seamlessly.
-
-- **Secure Payments:** Integrated with trusted payment gateways.
-- **Ticket Generation:** Generate unique tickets with QR codes for entry verification.
-
-### 4. Community Forums and Groups
-
-Foster a sense of community by allowing users to join forums and groups based on their interests and event categories.
-
-- **Discussion Threads:** Engage in meaningful conversations.
-- **Group Management:** Create and manage groups with specific themes or topics.
-
-### 5. Real-Time Feedback and Sentiment Analysis
-
-Gather instant feedback from attendees during events and analyze community sentiment to improve future events.
-
-- **Live Polls:** Conduct polls to gauge attendee opinions.
-- **Sentiment Analysis:** Utilize natural language processing to assess the overall mood and satisfaction.
-
-### 6. Multi-Language Support
-
-Ensure accessibility for a global audience by supporting multiple languages across the platform.
-
-- **Internationalization (i18n):** Easily switch between different languages.
-- **Localization:** Adapt content to fit regional preferences and norms.
-
----
-
-
