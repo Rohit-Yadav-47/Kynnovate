@@ -2,7 +2,7 @@
 
 ## 🎥 Demo
 
-[![Kynnovate Demo][Video Link](https://drive.google.com/file/d/1hyWuf2ekvkhGZ2wWq8WNPudvxb57DmBU/view?usp=drive_link)
+[Video Link](https://drive.google.com/file/d/1hyWuf2ekvkhGZ2wWq8WNPudvxb57DmBU/view?usp=drive_link)
 
 Welcome to **Event HUB**, an innovative platform designed to revolutionize the way you discover, manage, and engage with events. Leveraging cutting-edge technologies and a user-centric design, Kynnovate provides a seamless experience for both event organizers and attendees. Whether you're looking to host a virtual conference, attend a local meetup, or connect with like-minded individuals, Kynnovate has you covered.
 
