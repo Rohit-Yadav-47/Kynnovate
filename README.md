@@ -4,7 +4,7 @@
 
 [Video Link](https://drive.google.com/file/d/1hyWuf2ekvkhGZ2wWq8WNPudvxb57DmBU/view?usp=drive_link)
 
-Welcome to **Event HUB**, an innovative platform designed to revolutionize the way you discover, manage, and engage with events. Leveraging cutting-edge technologies and a user-centric design, Kynnovate provides a seamless experience for both event organizers and attendees. Whether you're looking to host a virtual conference, attend a local meetup, or connect with like-minded individuals, Kynnovate has you covered.
+Welcome to **Event HUB**, an innovative platform designed to revolutionize the way you discover, manage, and engage with events. Leveraging cutting-edge technologies and a user-centric design, Event Hub provides a seamless experience for both event organizers and attendees. Whether you're looking to host a virtual conference, attend a local meetup, or connect with like-minded individuals, Event Hub has you covered.
 
 ---
 
@@ -27,7 +27,7 @@ Welcome to **Event HUB**, an innovative platform designed to revolutionize the w
 
 ## 🌟 Overview
 
-**Kynnovate** is a comprehensive event management and discovery platform that bridges the gap between event organizers and attendees. By integrating advanced AI-driven features, real-time analytics, and a robust community engagement system, Kynnovate ensures that every event is a success and every attendee has a memorable experience.
+**Event Hub** is a comprehensive event management and discovery platform that bridges the gap between event organizers and attendees. By integrating advanced AI-driven features, real-time analytics, and a robust community engagement system, Event Hub ensures that every event is a success and every attendee has a memorable experience.
 
 ### Key Objectives
 
@@ -104,7 +104,7 @@ Welcome to **Event HUB**, an innovative platform designed to revolutionize the w
 
 ## 📥 Getting Started
 
-Follow these steps to set up and run **Kynnovate** locally.
+Follow these steps to set up and run **Event Hub** locally.
 
 ### 🔧 Prerequisites
 
@@ -123,8 +123,8 @@ Before you begin, ensure you have the following installed on your machine:
 First, clone the GitHub repository to your local machine.
 
 ```bash
-git clone https://github.com/Rohit-Yadav-47/Kynnovate.git
-cd Kynnovate
+git clone https://github.com/Rohit-Yadav-47/Event Hub.git
+cd Event Hub
 ```
 
 #### 2. Backend Setup
@@ -188,7 +188,7 @@ uvicorn main:fast --reload
 
 #### 3. Frontend Setup
 
-The frontend is built using React.js and provides the user interface for Kynnovate.
+The frontend is built using React.js and provides the user interface for Event Hub.
 
 ##### a. Navigate to the Frontend Directory
 
@@ -219,7 +219,7 @@ npm run dev
 ---
 ## 📄 API Documentation
 
-Kynnovate provides a comprehensive API to interact with various features of the platform. Below is an overview of the core endpoints and their respective schemas.
+Event Hub provides a comprehensive API to interact with various features of the platform. Below is an overview of the core endpoints and their respective schemas.
 
 ### 🔌 Core Endpoints
 
@@ -290,7 +290,7 @@ The following schemas define the structure of the data returned by the API endpo
 
 ## 🏗️ Architecture
 
-Kynnovate is built on a modular architecture that ensures scalability, maintainability, and efficiency. Below is an overview of the system architecture:
+Event Hub is built on a modular architecture that ensures scalability, maintainability, and efficiency. Below is an overview of the system architecture:
 
 ```mermaid
 graph TD
